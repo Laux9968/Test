@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive GitHub Page</title>
+</head>
+<body>
+    <h1>Hello, GitHub!</h1>
+    <p id="message">This is my first interactive HTML page uploaded to GitHub.</p>
+    
+    <!-- Button to trigger the JavaScript function -->
+    <button onclick="changeText()">Click Me!</button>
+
+    <!-- JavaScript function to change the text -->
+    <script>
+        function changeText() {
+            document.getElementById('message').innerHTML = "You clicked the button! Well done!";
+        }
+    </script>
+</body>
+</html>
